@@ -20,7 +20,7 @@ repo.map((elem)=>{
       <h5 class="card-title">${elem.name}</h5>
       <h6 class="card-subtitle mb-2 text-body-secondary">${elem.full_name}</h6>
       <p class="card-text"></p>
-      <a href="${elem.html_url}/${elem.name}" class="card-link">Check In Github</a>
+      <a href="${elem.html_url}" class="card-link">Check In Github</a>
     </div>
   </div>`;
 })
