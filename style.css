@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.profile {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#dp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    outline: 5px solid rgb(0, 0, 185);
+
+
+}
+.stats{
+    justify-content: space-between;
+}
+
+#repos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    box-shadow: 0 0 8px black;
+}
+.card:hover{
+    box-shadow: 0 0 15px black;
+    transition: all 0.4s;
+    
+}
